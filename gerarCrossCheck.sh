@@ -50,3 +50,6 @@ SEND 'NB_ORA_SERV=netbackupmasterlinux.datacenter.prodeb,NB_ORA_CLIENT=${NB_ORA_
 CROSSCHECK BACKUP;
 DELETE EXPIRED BACKUP;
 EOF"
+
+# Dá permissão de execução para o script crosscheck.sh
+chmod +x ~/script/crosscheck.rmn
